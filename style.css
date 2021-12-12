@@ -23,7 +23,9 @@ background-size: cover;
 
 .login_div
 {
-	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+	border: 5ch;
+	border-style: groove;	
+	background-image: url("lightning.jpeg");
 }
 
 .logo
@@ -46,6 +48,7 @@ background-size: cover;
 #logout
 {
 	font-size: 20px; float: right;
+	border-radius: 1lc0fr;
 }
 
 
@@ -90,8 +93,9 @@ background-size: cover;
 .user_tick
 {
 	width:20px;
+	border: ridge;
 }
 .message_h4
 {
-	padding-left:5px;color:grey;
+	padding-left:5px;color:royalblue;
 }
