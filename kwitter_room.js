@@ -1,6 +1,6 @@
 
 var firebaseConfig = {
-apiKey: "AIzaSyDE45e0OphdZuX6AW9Z7SspnW-L9gmtKkQ",
+  apiKey: "AIzaSyDE45e0OphdZuX6AW9Z7SspnW-L9gmtKkQ",
   authDomain: "lightning-chat-22e93.firebaseapp.com",
   databaseURL: "https://lightning-chat-22e93-default-rtdb.firebaseio.com",
   projectId: "lightning-chat-22e93",
