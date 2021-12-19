@@ -1,4 +1,10 @@
-var firebaseConfig = { apiKey: "AIzaSyCLGpxZs2pD9mqZCrFwuOI0gYPdRWN5Ksw", authDomain: "kwitter-6abca.firebaseapp.com", databaseURL: "https://kwitter-6abca-default-rtdb.firebaseio.com", projectId: "kwitter-6abca", storageBucket: "kwitter-6abca.appspot.com", messagingSenderId: "231606977400", appId: "1:231606977400:web:d2d2878892c4b97584fe8d" };  
+var firebaseConfig = { apiKey: "AIzaSyDE45e0OphdZuX6AW9Z7SspnW-L9gmtKkQ",
+authDomain: "lightning-chat-22e93.firebaseapp.com",
+databaseURL: "https://lightning-chat-22e93-default-rtdb.firebaseio.com",
+projectId: "lightning-chat-22e93",
+storageBucket: "lightning-chat-22e93.appspot.com",
+messagingSenderId: "864319874978",
+appId: "1:864319874978:web:9d445ab26e4d250d25b4fb" };  
  firebase.initializeApp(firebaseConfig);
 
 
@@ -27,3 +33,9 @@ function redirectToRoomName(name){
       localStorage.setItem("room_name", name);
       window.location="kwitter_page.html";
 }
+
+function logout(){
+      localStorage.removeItem("user_name");
+      localStorage.removeItem("room_name");
+      window.location="index.html";
+  }
